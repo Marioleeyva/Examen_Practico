@@ -19,9 +19,16 @@
 | Samuel Galindo Vaquier | 230173 | [@Samuel-Galindo-Vaquier](https://github.com/Samuel-Galindo-Vaquier) |
 | Yuleni Gayosso Martínez | 230145 | [@06-yule](https://github.com/06-yule) |
 | Mario Antonio Leyva Olivares | 230117 | [@Marioleeyva](https://github.com/Marioleeyva) |
+<br>
+
+> ### Docente Responsable
+>
+> **M.T.I. Marco Antonio Ramírez Hernández**  
+> GitHub: [@MTI-MarcoRH](https://github.com/MTI-MarcoRH)
+
+<br>
 
 ---
-
 ## Descripción General
 
 Este proyecto integral consiste en el **análisis, corrección y optimización** de una base de datos para un sistema de comercio electrónico (*e-commerce*) que presenta inconsistencias críticas en su funcionamiento, especialmente en el proceso de compra.
