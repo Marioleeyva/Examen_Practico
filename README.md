@@ -6,6 +6,7 @@
 
 <div align="center">
   <h1>Examen Práctico</h1>
+  ---
   <h3>Unidades 2 y 3 - Base de Datos para Negocios Digitales</h3>
 </div>
 <br>
