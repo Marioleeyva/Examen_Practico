@@ -12,7 +12,7 @@
 ## Integrantes del Equipo
 
 | Nombre | Matrícula | Perfil de GitHub |
-| :--- | :---: | :---: |
+| :--- | :--- | :--- |
 | Ana Karen Aguilar Torres | 230292 | [@Anakaren-at](https://github.com/Anakaren-at) |
 | Gerardo Clemente Hernández | 230416 | [@CH-Gerardo](https://github.com/CH-Gerardo) |
 | Samuel Galindo Vaquier | 230173 | [@Samuel-Galindo-Vaquier](https://github.com/Samuel-Galindo-Vaquier) |
