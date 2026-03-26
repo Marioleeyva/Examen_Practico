@@ -1,4 +1,4 @@
-<img src="imagenes/LOGOS-CARRERAS-TI.png" width="150" align="left" alt="Logo UTXJ">
+<img src="imagenes/LOGOS-CARRERAS-TI.png" width="250" align="left" alt="Logo UTXJ">
 <img src="imagenes/BOUTIQUE.png" width="150" align="right" alt="Logo Boutique">
 
 <br clear="all">
