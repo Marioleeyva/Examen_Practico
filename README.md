@@ -1,17 +1,7 @@
-<table width="100%">
-  <tr>
-    <td align="left" width="33%">
-      <img src="imagenes/LOGOS-CARRERAS-TI.png" width="150" alt="Logo UTXJ">
-    </td>
-    <td align="center" width="34%">
-      <!-- Espacio central vacío -->
-    </td>
-    <td align="right" width="33%">
-      <img src="imagenes/BOUTIQUE.png" width="150" alt="Logo Boutique">
-    </td>
-  </tr>
-</table>
+<img src="imagenes/LOGOS-CARRERAS-TI.png" width="150" align="left" alt="Logo UTXJ">
+<img src="imagenes/BOUTIQUE.png" width="150" align="right" alt="Logo Boutique">
 
+<br clear="all">
 <br>
 
 <div align="center">
