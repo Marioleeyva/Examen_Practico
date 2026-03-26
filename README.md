@@ -19,3 +19,25 @@
 | Samuel Galindo Vaquier | 230173 | [@Samuel-Galindo-Vaquier](https://github.com/Samuel-Galindo-Vaquier) |
 | Yuleni Gayosso Martínez | 230145 | [@06-yule](https://github.com/06-yule) |
 | Mario Antonio Leyva Olivares | 230117 | [@Marioleeyva](https://github.com/Marioleeyva) |
+
+---
+
+## Descripción General
+
+Este proyecto integral consiste en el **análisis, corrección y optimización** de una base de datos para un sistema de comercio electrónico (*e-commerce*) que presenta inconsistencias críticas en su funcionamiento, especialmente en el proceso de compra.
+
+El objetivo principal es aplicar los conocimientos adquiridos en las **Unidades 2 y 3** de la materia *Base de Datos para Negocios Digitales*, implementando soluciones técnicas avanzadas que garanticen la integridad, eficiencia y seguridad de la información.
+
+---
+
+## Resultado Esperado
+
+Al finalizar este proyecto, se obtendrá una **base de datos robusta, optimizada y libre de inconsistencias**, capaz de soportar operaciones reales de un e-commerce. El sistema contará con:
+
+1.  **Datos íntegros** protegidos por disparadores automáticos.
+2.  **Procesos automatizados** eficientes mediante procedimientos almacenados.
+3.  **Tiempos de respuesta reducidos** gracias a la indexación adecuada.
+4.  **Operaciones financieras seguras** con manejo correcto de transacciones y errores.
+5.  **Documentación completa** y trazabilidad del trabajo colaborativo en GitHub.
+
+Este entregable demuestra el dominio práctico de administración, desarrollo y optimización de bases de datos relacionales en un entorno empresarial simulado.
