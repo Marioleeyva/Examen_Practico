@@ -1,5 +1,5 @@
-<img src="imagenes/LOGOS-CARRERAS-TI.png" width="250" align="left" alt="Logo UTXJ">
-<img src="imagenes/BOUTIQUE.png" width="150" align="right" alt="Logo Boutique">
+<img src="Logotipos/LOGOS-CARRERAS-TI.png" width="250" align="left" alt="Logo UTXJ">
+<img src="Logotipos/BOUTIQUE.png" width="150" align="right" alt="Logo Boutique">
 
 <br clear="all">
 <br>
