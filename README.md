@@ -10,6 +10,7 @@
 </div>
 <br>
 <br>
+
 ## Integrantes del Equipo
 
 | Nombre | Matrícula | Perfil de GitHub |
