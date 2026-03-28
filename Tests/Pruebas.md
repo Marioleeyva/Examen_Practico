@@ -5,15 +5,15 @@ Documentar todas las pruebas realizadas para validar el correcto funcionamiento 
 
 Se ejecutaron simulaciones de diferentes volúmenes y escenarios para verificar la integridad, rendimiento y coherencia de los datos.
 
-|#### Prueba  | Descripción                                             | Cantidad             | Resultado
-|-------------|---------------------------------------------------------|----------------------|--------
-|    01 -     | Generar 1 compra completa                               |      1               |   Completada
-|    02 -     | Generar 10 compras de Perfumería                        |      10              |   Completada
-|    03 -     | Generar 100 compras en el año 2026                      |      100             |   Completada
-|    04 -     | Generar 1000 compras de Ropa para mujer                 |      1000            |   Completada
-|    05 -     | Generar 500 compras de Ropa para hombre                 |      500             |   Completada
-|    06 -     | Generar 10,000 compras generales                        |      10,000          |   Completada
-|    07 -     | Consulta integral,Vista del proceso completo            |                      |    Completada
+| Prueba     | Descripción                                             | Cantidad             | Resultado
+|------------|---------------------------------------------------------|----------------------|--------
+|    01      | Generar 1 compra completa                               |      1               |   Completada
+|    02      | Generar 10 compras de Perfumería                        |      10              |   Completada
+|    03      | Generar 100 compras en el año 2026                      |      100             |   Completada
+|    04      | Generar 1000 compras de Ropa para mujer                 |      1000            |   Completada
+|    05      | Generar 500 compras de Ropa para hombre                 |      500             |   Completada
+|    06      | Generar 10,000 compras generales                        |      10,000          |   Completada
+|    07      | Consulta integral,Vista del proceso completo            |                      |    Completada
 
 #### Herramientas Utilizadas
 
@@ -222,7 +222,7 @@ Generar una consulta o vista que muestre el proceso completo de compra con la si
 ![TEST - Verificacion de pruebas](TEST%207.png)
 ![TEST - Verificacion de pruebas](TEST%208.png)
 ![TEST - Verificacion de pruebas](TEST%209.png)
-![TEST - Verificacion de pruebas](TEST%2010.png)
+![TEST - Verificacion de pruebas](TEST%2010.jpg)
 
 
 #### Estatus: 
