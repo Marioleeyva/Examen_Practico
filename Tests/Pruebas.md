@@ -47,21 +47,19 @@ Generar 1 compra completa:
 **Carrito → Detalle → Pedido → Transacción financiera**
 
 **Comandos ejecutados:**
-
-CALL simula_carrito(1, null, null);
----
-CALL simula_pedidos(1, 1, 1, null);
----
-CALL simula_compras(1, 1, 1);
+|------------------------------------|
+|CALL simula_carrito(1, null, null); |
+|CALL simula_pedidos(1, 1, 1, null); |
+|CALL simula_compras(1, 1, 1);       |
 
 **Evidencias:**
-![Test 01 - Generar 1 compra completa](TEST 1_1.png)
-![Test 01 - Generar 1 compra completa](TEST 1_2.png)
-![Test 01 - Generar 1 compra completa](TEST 1_3.png)
-![Test 01 - Generar 1 compra completa](TEST 1_4.png)
-![Test 01 - Generar 1 compra completa](TEST 1_5.png)
-![Test 01 - Generar 1 compra completa](TEST 1_6.png)
-![Test 01 - Generar 1 compra completa](TEST 1_7.png)
+![TEST - Verificacion de pruebas](TEST%201_1.png)
+![TEST - Verificacion de pruebas](TEST%201_2.png)
+![TEST - Verificacion de pruebas](TEST%201_3.png)
+![TEST - Verificacion de pruebas](TEST%201_4.png)
+![TEST - Verificacion de pruebas](TEST%201_5.png)
+![TEST - Verificacion de pruebas](TEST%201_6.png)
+![TEST - Verificacion de pruebas](TEST%201_7.png)
 
 #### Estatus:
 Exitoso.
@@ -75,23 +73,21 @@ Generar 10 compras enfocadas en productos de la categoría “Perfumería”
 
 
 **Comandos principales:**
-
-SQLCALL simula_carrito(10, null, "Perfumeria");
----
-CALL simula_pedidos(10, 2, 11, null);
----
-CALL simula_compras(10, 2, 11);
-
+|-------------------------------------------------|
+|SQLCALL simula_carrito(10, null, "Perfumeria");  |
+|CALL simula_pedidos(10, 2, 11, null);            |
+|CALL simula_compras(10, 2, 11);                  |
+  
 
 **Evidencias:**
-![Test 02 - Generar 10 compras de productos](TEST 2_1.png)
-![Test 02 - Generar 10 compras de productos](TEST 2_2.png)
-![Test 02 - Generar 10 compras de productos](TEST 2_3.png)
-![Test 02 - Generar 10 compras de productos](TEST 2_4.png)
-![Test 02 - Generar 10 compras de productos](TEST 2_5.png)
-![Test 02 - Generar 10 compras de productos](TEST 2_6.png)
-![Test 02 - Generar 10 compras de productos](TEST 2_7.png)
-![Test 02 - Generar 10 compras de productos](TEST 2_8.png)
+![TEST - Verificacion de pruebas](TEST%202_1.png)
+![TEST - Verificacion de pruebas](TEST%202_2.png)
+![TEST - Verificacion de pruebas](TEST%202_3.png)
+![TEST - Verificacion de pruebas](TEST%202_4.png)
+![TEST - Verificacion de pruebas](TEST%202_5.png)
+![TEST - Verificacion de pruebas](TEST%202_6.png)
+![TEST - Verificacion de pruebas](TEST%202_7.png)
+![TEST - Verificacion de pruebas](TEST%202_8.png)
 
 #### Estatus: 
 Exitoso.
@@ -104,21 +100,20 @@ Exitoso.
 Generar 100 compras con fecha en el año 2026
 
 **Comandos principales:**
-SQLCALL simula_carrito(100, null, null);
----
-CALL simula_pedidos(100, 12, 111, 2026);
----
-CALL simula_compras(100, 12, 111);
+|------------------------------------------|
+|SQLCALL simula_carrito(100, null, null);  |
+|CALL simula_pedidos(100, 12, 111, 2026);  |
+|CALL simula_compras(100, 12, 111);        |
 
 **Evidencias:**
-![Test 03 - Generar 100 compras](TEST 3_1.png)
-![Test 03 - Generar 100 compras](TEST 3_2.png)
-![Test 03 - Generar 100 compras](TEST 3_3.png)
-![Test 03 - Generar 100 compras](TEST 3_4.png)
-![Test 03 - Generar 100 compras](TEST 3_5.png)
-![Test 03 - Generar 100 compras](TEST 3_6.png)
-![Test 03 - Generar 100 compras](TEST 3_7.png)
-![Test 03 - Generar 100 compras](TEST 3_8.png)
+![TEST - Verificacion de pruebas](TEST%203_1.png)
+![TEST - Verificacion de pruebas](TEST%203_2.png)
+![TEST - Verificacion de pruebas](TEST%203_3.png)
+![TEST - Verificacion de pruebas](TEST%203_4.png)
+![TEST - Verificacion de pruebas](TEST%203_5.png)
+![TEST - Verificacion de pruebas](TEST%203_6.png)
+![TEST - Verificacion de pruebas](TEST%203_7.png)
+![TEST - Verificacion de pruebas](TEST%203_8.png)
 
 
 #### Estatus: 
@@ -131,21 +126,20 @@ Exitoso.
 Generar 1000 compras de la categoría “Ropa” para género “Mujer”
 
 **Comandos principales:**
-SQLCALL simula_carrito2(1000, null, "Ropa", "Mujer");
----
-CALL simula_pedidos(1000, 112, 1111, null);
----
-CALL simula_compras(1000, 112, 1111);
+|------------------------------------------------------ |
+|SQLCALL simula_carrito2(1000, null, "Ropa", "Mujer");  |
+|CALL simula_pedidos(1000, 112, 1111, null);|           |
+|CALL simula_compras(1000, 112, 1111);                  |
 
 **Evidencias:**
-![Test 04 - Generar 10 compras de productos](TEST 4_1.png)
-![Test 04 - Generar 10 compras de productos](TEST 4_2.png)
-![Test 04 - Generar 10 compras de productos](TEST 4_3.png)
-![Test 04 - Generar 10 compras de productos](TEST 4_4.png)
-![Test 04 - Generar 10 compras de productos](TEST 4_5.png)
-![Test 04 - Generar 10 compras de productos](TEST 4_6.png)
-![Test 04 - Generar 10 compras de productos](TEST 4_7.png)
-![Test 04 - Generar 10 compras de productos](TEST 4_8.png)
+![TEST - Verificacion de pruebas](TEST%204_1.png)
+![TEST - Verificacion de pruebas](TEST%204_2.png)
+![TEST - Verificacion de pruebas](TEST%204_3.png)
+![TEST - Verificacion de pruebas](TEST%204_4.png)
+![TEST - Verificacion de pruebas](TEST%204_5.png)
+![TEST - Verificacion de pruebas](TEST%204_6.png)
+![TEST - Verificacion de pruebas](TEST%204_7.png)
+![TEST - Verificacion de pruebas](TEST%204_8.png)
 
 #### Estatus: 
 Exitoso.
@@ -158,21 +152,20 @@ Exitoso.
 Generar 500 compras de la categoría “Ropa” para género “Hombre”
 
 **Comandos principales:**
-SQLCALL simula_carrito2(500, null, "Ropa", "Hombre");
----
-CALL simula_pedidos(500, 1112, 1611, null);
----
-CALL simula_compras(500, 1112, 1611);
+|-------------------------------------------------------|
+|SQLCALL simula_carrito2(500, null, "Ropa", "Hombre");  |
+|CALL simula_pedidos(500, 1112, 1611, null);            |
+|CALL simula_compras(500, 1112, 1611);                  |
 
 **Evidencias:**
-![Test 05 - Generar 500 compras](TEST 5_1.png)
-![Test 05 - Generar 500 compras](TEST 5_2.png)
-![Test 05 - Generar 500 compras](TEST 5_3.png)
-![Test 05 - Generar 500 compras](TEST 5_4.png)
-![Test 05 - Generar 500 compras](TEST 5_5.png)
-![Test 05 - Generar 500 compras](TEST 5_6.png)
-![Test 05 - Generar 500 compras](TEST 5_7.png)
-![Test 05 - Generar 500 compras](TEST 5_8.png)
+![TEST - Verificacion de pruebas](TEST%205_1.png)
+![TEST - Verificacion de pruebas](TEST%205_2.png)
+![TEST - Verificacion de pruebas](TEST%205_3.png)
+![TEST - Verificacion de pruebas](TEST%205_4.png)
+![TEST - Verificacion de pruebas](TEST%205_5.png)
+![TEST - Verificacion de pruebas](TEST%205_6.png)
+![TEST - Verificacion de pruebas](TEST%205_7.png)
+![TEST - Verificacion de pruebas](TEST%205_8.png)
 
 #### Estatus: 
 Exitoso.
@@ -185,21 +178,20 @@ Exitoso.
 Prueba de estrés: Generar 10,000 compras generales
 
 **Comandos principales:**
-SQLCALL simula_carrito(10000, null, null);
----
-CALL simula_pedidos(10000, 1612, 11611, null);
----
-CALL simula_compras(10000, 1612, 11611);
+|-----------------------------------------------|
+|SQLCALL simula_carrito(10000, null, null);     |
+|CALL simula_pedidos(10000, 1612, 11611, null);||
+|CALL simula_compras(10000, 1612, 11611);       |
 
 **Evidencias:**
-![Test 06 - Generar 10,000 compras de productos](TEST 6_1.png)
-![Test 06 - Generar 10,000 compras de productos](TEST 6_2.png)
-![Test 06 - Generar 10,000 compras de productos](TEST 6_3.png)
-![Test 06 - Generar 10,000 compras de productos](TEST 6_4.png)
-![Test 06 - Generar 10,000 compras de productos](TEST 6_5.png)
-![Test 06 - Generar 10,000 compras de productos](TEST 6_6.png)
-![Test 06 - Generar 10,000 compras de productos](TEST 6_7.png)
-![Test 06 - Generar 10,000 compras de productos](TEST 6_8.png)
+![TEST - Verificacion de pruebas](TEST%206_1.png)
+![TEST - Verificacion de pruebas](TEST%206_2.png)
+![TEST - Verificacion de pruebas](TEST%206_3.png)
+![TEST - Verificacion de pruebas](TEST%206_4.png)
+![TEST - Verificacion de pruebas](TEST%206_5.png)
+![TEST - Verificacion de pruebas](TEST%206_6.png)
+![TEST - Verificacion de pruebas](TEST%206_7.png)
+![TEST - Verificacion de pruebas](TEST%206_8.png)
 
 #### Estatus: 
 Exitoso.
@@ -227,10 +219,10 @@ Generar una consulta o vista que muestre el proceso completo de compra con la si
 - Tiempo total del proceso de compra
 
 **Evidencias:**
-![Test 07 - Consulta integral](TEST 7.png)
-![Test 07 - Consulta integral](TEST 8.png)
-![Test 07 - Consulta integral](TEST 9.png)
-![Test 07 - Consulta integral](TEST 10.png)
+![TEST - Verificacion de pruebas](TEST%207.png)
+![TEST - Verificacion de pruebas](TEST%208.png)
+![TEST - Verificacion de pruebas](TEST%209.png)
+![TEST - Verificacion de pruebas](TEST%2010.png)
 
 
 #### Estatus: 
