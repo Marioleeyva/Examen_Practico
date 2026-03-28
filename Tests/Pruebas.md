@@ -232,8 +232,51 @@ Generar una consulta o vista que muestre el proceso completo de compra con la si
 
 **Evidencias:**
 ![TEST - Verificacion de pruebas](TEST%207.png)
+
+#### Test 08: Línea de tiempo
+
+**Descripción:**  
+
+Se desarrolló una consulta que, dado el ID de un carrito, permite visualizar el orden en que los productos fueron seleccionados en función del tiempo.
+
+**Resultado:** 
+
+La consulta muestra correctamente la secuencia temporal de selección de productos, permitiendo identificar el comportamiento del usuario durante la sesión.
+
+**Evidencia:** 
 ![TEST - Verificacion de pruebas](TEST%208.png)
+
+---
+
+#### Test 09: Métricas de tiempo
+
+**Descripción:**  
+
+Se implementó una consulta que calcula distintas métricas relacionadas con el tiempo dentro del proceso de compra.
+
+**Resultado:** 
+La consulta calcula correctamente:
+* Duración de la sesión  
+* Tiempo de selección de productos  
+* Tiempo de aprobación del pago  
+
+Los resultados permiten analizar la eficiencia del proceso de compra.
+
+**Evidencia:**  
 ![TEST - Verificacion de pruebas](TEST%209.png)
+
+---
+
+#### Test 10: Visualización
+
+**Descripción:**  
+Se generó un dashboard para visualizar los pagos agrupados por origen, utilizando una herramienta de visualización.
+
+**Resultado:*  *
+
+El dashboard muestra de forma clara la distribución de los pagos según su origen, facilitando el análisis de los métodos de pago más utilizados.
+
+**Evidencia:** 
 ![TEST - Verificacion de pruebas](TEST%2010.jpg)
 
 
